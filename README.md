@@ -1,4 +1,4 @@
-# Clash免费节点 - 6月14日21.9M/S|免费V2ray/SSR/Clash/Shadowrocket节点机场链接  更新时间 2025-06-14 09:11:30
+# Clash免费节点 - 6月19日18.9M/S|免费V2ray/SSR/Shadowrocket/Clash节点机场链接  更新时间 2025-06-19 09:08:32
 所有免费clash节点都爬取自网络，请勿用于非法用途 。节点地址：<a href="https://clashmianfei.github.io" target="_blank">点击跳转</a>
 
 ## clash使用教程：
@@ -9,23 +9,23 @@
 
 ### Clash订阅链接
 
-- https://clashmianfei.github.io/uploads/2025/06/0-20250614.yaml
-- https://clashmianfei.github.io/uploads/2025/06/1-20250614.yaml
-- https://clashmianfei.github.io/uploads/2025/06/2-20250614.yaml
-- https://clashmianfei.github.io/uploads/2025/06/3-20250614.yaml
-- https://clashmianfei.github.io/uploads/2025/06/4-20250614.yaml
+- https://clashmianfei.github.io/uploads/2025/06/0-20250619.yaml
+- https://clashmianfei.github.io/uploads/2025/06/1-20250619.yaml
+- https://clashmianfei.github.io/uploads/2025/06/2-20250619.yaml
+- https://clashmianfei.github.io/uploads/2025/06/3-20250619.yaml
+- https://clashmianfei.github.io/uploads/2025/06/4-20250619.yaml
 
 ### V2ray订阅链接
 
-- https://clashmianfei.github.io/uploads/2025/06/0-20250614.txt
-- https://clashmianfei.github.io/uploads/2025/06/1-20250614.txt
-- https://clashmianfei.github.io/uploads/2025/06/2-20250614.txt
-- https://clashmianfei.github.io/uploads/2025/06/3-20250614.txt
-- https://clashmianfei.github.io/uploads/2025/06/4-20250614.txt
+- https://clashmianfei.github.io/uploads/2025/06/0-20250619.txt
+- https://clashmianfei.github.io/uploads/2025/06/1-20250619.txt
+- https://clashmianfei.github.io/uploads/2025/06/2-20250619.txt
+- https://clashmianfei.github.io/uploads/2025/06/3-20250619.txt
+- https://clashmianfei.github.io/uploads/2025/06/4-20250619.txt
 
 ### Sing-box订阅链接
 
-- https://clashmianfei.github.io/uploads/2025/06/20250614.json
+- https://clashmianfei.github.io/uploads/2025/06/20250619.json
 
 ## 更多clash节点订阅 ：
 
