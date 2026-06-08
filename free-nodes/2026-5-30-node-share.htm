@@ -267,12 +267,18 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> v2
 <div class="clearfix"></div>
 <div class="col-md-12 mt-5">
         <p>上一个：<a href="/free-nodes/2026-5-29-free-v2ray-subscribe.htm">Clash免费节点 - 5月29日21.6M/S|免费V2ray节点/Clash节点/Singbox节点/Shadowrocket节点/SSR节点/Trojan节点节点机场链接</a></p>
+        <p>下一个：<a href="/free-nodes/2026-5-31-free-subscribe-node.htm">Clash免费节点 - 5月31日18.7M/S|免费Singbox节点/V2ray节点/Trojan节点/Clash节点/Shadowrocket节点/SSR节点节点机场链接</a></p>
     </div>
 <h4>FAQ</h4>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>PassWall2 能运行在哪些设备上？</h5></div>
+    <div class="panel-heading"><h5>VLESS 的 Flow 参数有什么作用？</h5></div>
     <div class="panel-body">
-        PassWall2 是基于 OpenWRT 的插件，只要路由器支持该固件，就能安装运行。常见型号如小米路由、斐讯、软路由都可以使用，通过 Web 界面操作，适合家庭网络使用场景。<hr />    </div>
+        Flow 参数用于控制 VLESS 的传输模式，如 XTLS Vision 或 Reality 模式。它能影响性能、安全性与兼容性，需根据客户端支持情况正确匹配配置。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>Clash 节点延迟检测如何优化网络访问？</h5></div>
+    <div class="panel-body">
+        Clash 会定期测试节点延迟，并结合策略组自动选择最优节点。避免访问高延迟或失效节点，提升网页浏览、视频播放和游戏速度及稳定性，提高整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>如何使用 Docker 部署 sing-box 或 v2ray？</h5></div>
@@ -285,29 +291,14 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> v2
         Sing-box 支持根据端口匹配流量，将不同应用流量分配到指定节点。结合策略组使用，可精准分流，提高访问速度和网络稳定性，优化整体网络体验。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>Clash 节点延迟检测如何优化网络访问？</h5></div>
-    <div class="panel-body">
-        Clash 会定期测试节点延迟，并结合策略组自动选择最优节点。避免访问高延迟或失效节点，提升网页浏览、视频播放和游戏速度及稳定性，提高整体网络体验。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>VLESS 的 Flow 参数有什么作用？</h5></div>
-    <div class="panel-body">
-        Flow 参数用于控制 VLESS 的传输模式，如 XTLS Vision 或 Reality 模式。它能影响性能、安全性与兼容性，需根据客户端支持情况正确匹配配置。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>SSR 的混淆和协议组合如何选择？</h5></div>
-    <div class="panel-body">
-        根据网络封锁情况选择适合的混淆和协议组合，例如 tls1.2_ticket_auth 模拟 HTTPS 流量。不同组合对抗 DPI 和封锁能力不同，需要测试后选择最稳定和高效的方案。<hr />    </div>
-</div>
-<div class="panel panel-default">
-    <div class="panel-heading"><h5>如何在手机上减少代理应用对电量的消耗？</h5></div>
-    <div class="panel-body">
-        关闭不必要的后台代理连接，减少实时测速或心跳频率，启用省电模式并限制流量统计与日志记录；对于常用站点设置直连策略，避免所有流量都走代理带来的持续网络负荷。<hr />    </div>
-</div>
-<div class="panel panel-default">
     <div class="panel-heading"><h5>VLESS + XTLS 模式在移动网络下的优势是什么？</h5></div>
     <div class="panel-body">
         XTLS 模式减少握手次数和加密开销，适合高延迟或不稳定的移动网络。结合策略组和多出口节点使用，可提高访问速度和连接稳定性，保证用户体验流畅可靠。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>如何备份 Clash 配置文件？</h5></div>
+    <div class="panel-body">
+        Clash 的配置文件通常位于程序目录或配置文件夹中（如 Windows 下的 .config/clash）。用户可直接复制该 YAML 文件以备份，也可将订阅链接保存，便于后续恢复或在其他设备上同步使用。<hr />    </div>
 </div>
 <div class="panel panel-default">
     <div class="panel-heading"><h5>Shadowrocket 支持自动测速吗？</h5></div>
@@ -315,9 +306,19 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> v2
         支持。Shadowrocket 可以批量测速节点延迟并标记最佳连接。用户还可设置自动切换到最低延迟节点，实现稳定高速的上网体验，尤其在网络波动较大的环境中效果明显。<hr />    </div>
 </div>
 <div class="panel panel-default">
-    <div class="panel-heading"><h5>如何备份 Clash 配置文件？</h5></div>
+    <div class="panel-heading"><h5>如何在手机上减少代理应用对电量的消耗？</h5></div>
     <div class="panel-body">
-        Clash 的配置文件通常位于程序目录或配置文件夹中（如 Windows 下的 .config/clash）。用户可直接复制该 YAML 文件以备份，也可将订阅链接保存，便于后续恢复或在其他设备上同步使用。    </div>
+        关闭不必要的后台代理连接，减少实时测速或心跳频率，启用省电模式并限制流量统计与日志记录；对于常用站点设置直连策略，避免所有流量都走代理带来的持续网络负荷。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>SSR 的混淆和协议组合如何选择？</h5></div>
+    <div class="panel-body">
+        根据网络封锁情况选择适合的混淆和协议组合，例如 tls1.2_ticket_auth 模拟 HTTPS 流量。不同组合对抗 DPI 和封锁能力不同，需要测试后选择最稳定和高效的方案。<hr />    </div>
+</div>
+<div class="panel panel-default">
+    <div class="panel-heading"><h5>PassWall2 能运行在哪些设备上？</h5></div>
+    <div class="panel-body">
+        PassWall2 是基于 OpenWRT 的插件，只要路由器支持该固件，就能安装运行。常见型号如小米路由、斐讯、软路由都可以使用，通过 Web 界面操作，适合家庭网络使用场景。    </div>
 </div>
 <div class="panel panel-default mt-5">
     <div class="panel-heading">
@@ -368,16 +369,16 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> v2
     </div>
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
-                        <li class="py-2"><a href="/free-nodes/2026-5-16-free-subscribe-node.htm" title="Clash免费节点 - 5月16日19.2M/S|免费V2ray节点/Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点机场链接">Clash免费节点 - 5月16日19.2M/S|免费V2ray节点/Trojan节点/SSR节点/Clash节点/Singbox节点/Shadowrocket节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-12-free-node-subscribe.htm" title="Clash免费节点 - 5月12日20.7M/S|免费Trojan节点/SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点节点机场链接">Clash免费节点 - 5月12日20.7M/S|免费Trojan节点/SSR节点/Singbox节点/V2ray节点/Clash节点/Shadowrocket节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-30-node-share.htm" title="Clash免费节点 - 5月30日22.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点机场链接">Clash免费节点 - 5月30日22.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-20-free-high-speed-nodes.htm" title="Clash免费节点 - 5月20日20.6M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点机场链接">Clash免费节点 - 5月20日20.6M/S|免费Singbox节点/Trojan节点/Shadowrocket节点/V2ray节点/SSR节点/Clash节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-25-free-high-speed-nodes.htm" title="Clash免费节点 - 4月25日23M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点机场链接">Clash免费节点 - 4月25日23M/S|免费V2ray节点/Trojan节点/Shadowrocket节点/Singbox节点/Clash节点/SSR节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-4-20-node-share.htm" title="Clash免费节点 - 4月20日19.8M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接">Clash免费节点 - 4月20日19.8M/S|免费Clash节点/SSR节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-6-free-node-subscribe.htm" title="Clash免费节点 - 5月6日18.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Trojan节点节点机场链接">Clash免费节点 - 5月6日18.7M/S|免费Shadowrocket节点/Clash节点/V2ray节点/SSR节点/Singbox节点/Trojan节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-4-free-node-subscribe-links.htm" title="Clash免费节点 - 5月4日19.9M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接">Clash免费节点 - 5月4日19.9M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接</a><hr /></li>
-                        <li class="py-2"><a href="/free-nodes/2026-5-17-node-share-links.htm" title="Clash免费节点 - 5月17日18.7M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点节点机场链接">Clash免费节点 - 5月17日18.7M/S|免费Clash节点/Singbox节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-14-free-subscribe-node.htm" title="Clash免费节点 - 5月14日18.6M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/Trojan节点节点机场链接">Clash免费节点 - 5月14日18.6M/S|免费V2ray节点/Shadowrocket节点/SSR节点/Singbox节点/Clash节点/Trojan节点节点机场链接</a><hr /></li>
                         <li class="py-2"><a href="/free-nodes/2026-5-18-free-v2ray.htm" title="Clash免费节点 - 5月18日20.5M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Singbox节点节点机场链接">Clash免费节点 - 5月18日20.5M/S|免费Shadowrocket节点/Clash节点/V2ray节点/Trojan节点/SSR节点/Singbox节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-22-free-node-subscribe.htm" title="Clash免费节点 - 5月22日18.9M/S|免费Clash节点/Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/V2ray节点节点机场链接">Clash免费节点 - 5月22日18.9M/S|免费Clash节点/Shadowrocket节点/Trojan节点/SSR节点/Singbox节点/V2ray节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-9-free-node-subscribe.htm" title="Clash免费节点 - 5月9日19.4M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点节点机场链接">Clash免费节点 - 5月9日19.4M/S|免费Singbox节点/Clash节点/V2ray节点/Trojan节点/Shadowrocket节点/SSR节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-30-node-share.htm" title="Clash免费节点 - 5月30日22.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点机场链接">Clash免费节点 - 5月30日22.3M/S|免费Clash节点/Shadowrocket节点/Singbox节点/SSR节点/Trojan节点/V2ray节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-24-free-node-subscribe.htm" title="Clash免费节点 - 5月24日19.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点/Trojan节点节点机场链接">Clash免费节点 - 5月24日19.1M/S|免费Shadowrocket节点/SSR节点/Singbox节点/Clash节点/V2ray节点/Trojan节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-7-node-share-links.htm" title="Clash免费节点 - 5月7日22.5M/S|免费V2ray节点/Singbox节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点节点机场链接">Clash免费节点 - 5月7日22.5M/S|免费V2ray节点/Singbox节点/Clash节点/Trojan节点/Shadowrocket节点/SSR节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-21-free-node-subscribe-links.htm" title="Clash免费节点 - 5月21日21.1M/S|免费Clash节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点机场链接">Clash免费节点 - 5月21日21.1M/S|免费Clash节点/Trojan节点/V2ray节点/SSR节点/Shadowrocket节点/Singbox节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-6-1-free-high-speed-nodes.htm" title="Clash免费节点 - 6月1日18.9M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点机场链接">Clash免费节点 - 6月1日18.9M/S|免费Shadowrocket节点/Singbox节点/Trojan节点/SSR节点/Clash节点/V2ray节点节点机场链接</a><hr /></li>
+                        <li class="py-2"><a href="/free-nodes/2026-5-4-free-node-subscribe-links.htm" title="Clash免费节点 - 5月4日19.9M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接">Clash免费节点 - 5月4日19.9M/S|免费SSR节点/Clash节点/V2ray节点/Singbox节点/Shadowrocket节点/Trojan节点节点机场链接</a><hr /></li>
                     </ul>
     </div>
 </div>
@@ -389,10 +390,10 @@ systemctl </span><span><span class="hljs-built_in">enable</span></span><span> v2
     <div class="panel-body">
         <ul class="p-0 x-0" style="list-style: none;margin: 0;padding: 0;">
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">30</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
+                <h4><span class="badge" style="float: right;">8</span> <a href="/date/2026-06/" title="2026-06 归档">2026-06</a></h4>
             </li>
                         <li class="py-2">
-                <h4><span class="badge" style="float: right;">19</span> <a href="/date/2026-04/" title="2026-04 归档">2026-04</a></h4>
+                <h4><span class="badge" style="float: right;">29</span> <a href="/date/2026-05/" title="2026-05 归档">2026-05</a></h4>
             </li>
                     </ul>
     </div>
